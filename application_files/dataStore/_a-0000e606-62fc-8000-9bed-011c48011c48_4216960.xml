@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dataStoreHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <versionUuid>_a-0000e606-62fc-8000-9bed-011c48011c48_4216972</versionUuid>
+    <dataStore>
+        <uuid>_a-0000e606-62fc-8000-9bed-011c48011c48_4216960</uuid>
+        <name>KA Customers</name>
+        <description>Data store containing all application's data store entities. [Data]</description>
+        <dataSourceKey>jdbc/Appian</dataSourceKey>
+        <adaptingExplicitSqlNames>false</adaptingExplicitSqlNames>
+        <autoUpdateSchema>false</autoUpdateSchema>
+        <entities>
+            <entity>
+                <uuid>d20b5596-56ef-4884-92bc-23eca2ec2e3a</uuid>
+                <name>KA_Status</name>
+                <type>{urn:com:appian:types:KA}KA_Status</type>
+            </entity>
+            <entity>
+                <uuid>0386b285-d978-4c3a-83c7-6ecc72475749</uuid>
+                <name>KA_Priority</name>
+                <type>{urn:com:appian:types:KA}KA_Priority</type>
+            </entity>
+            <entity>
+                <uuid>bc04db4a-ce3e-44bd-b79f-1186453073ab</uuid>
+                <name>KA_Activity</name>
+                <type>{urn:com:appian:types:KA}KA_Activity</type>
+            </entity>
+            <entity>
+                <uuid>249b6cc1-677b-4fa9-97ac-d3551bfcfeb9</uuid>
+                <name>KA_Customer</name>
+                <type>{urn:com:appian:types:KA}KA_Customer</type>
+            </entity>
+        </entities>
+    </dataStore>
+    <isPublished>true</isPublished>
+    <roleMap>
+        <role inherit="false" allowForAll="false" name="administrators">
+            <users/>
+            <groups>
+                <groupUuid>_e-0000e606-62fc-8000-9b39-01075c01075c_17575</groupUuid>
+            </groups>
+        </role>
+        <role inherit="false" allowForAll="false" name="authors">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="denyAdministrators">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="denyAuthors">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="denyReaders">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="readers">
+            <users/>
+            <groups>
+                <groupUuid>_e-0000e606-62fc-8000-9b39-01075c01075c_17577</groupUuid>
+            </groups>
+        </role>
+    </roleMap>
+    <history>
+        <historyInfo versionUuid="_a-0000e606-62fc-8000-9bed-011c48011c48_4216972"/>
+    </history>
+</dataStoreHaul>

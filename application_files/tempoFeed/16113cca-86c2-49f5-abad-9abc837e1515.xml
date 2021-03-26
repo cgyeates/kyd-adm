@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tempoFeedHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <versionUuid>a4973418-d684-4174-9703-fb149a77f6d8</versionUuid>
+    <tempoFeed>
+        <uuid>16113cca-86c2-49f5-abad-9abc837e1515</uuid>
+        <name>KYD App</name>
+        <description>Feed for updates about Customers</description>
+        <showInCatalog>true</showInCatalog>
+        <systemFeed>false</systemFeed>
+    </tempoFeed>
+    <roleMap>
+        <role name="administrator">
+            <users/>
+            <groups>
+                <groupUuid>_e-0000e606-62fc-8000-9b39-01075c01075c_17575</groupUuid>
+            </groups>
+        </role>
+    </roleMap>
+    <history>
+        <historyInfo versionUuid="a4973418-d684-4174-9703-fb149a77f6d8"/>
+    </history>
+</tempoFeedHaul>

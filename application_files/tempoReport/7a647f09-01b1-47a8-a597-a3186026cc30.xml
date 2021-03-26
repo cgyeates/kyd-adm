@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tempoReportHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <versionUuid>70585d52-6fb1-48fa-9872-b464b28645a9</versionUuid>
+    <tempoReport a:uuid="7a647f09-01b1-47a8-a597-a3186026cc30" name="Customers">
+        <a:description>Report containing information and metrics on Customers</a:description>
+        <a:uiExpr>=#"_a-0000e606-62fc-8000-9bed-011c48011c48_4216912"()</a:uiExpr>
+        <a:urlStub>3MhFgg</a:urlStub>
+    </tempoReport>
+    <roleMap>
+        <role name="report_administrator">
+            <users/>
+            <groups>
+                <groupUuid>_e-0000e606-62fc-8000-9b39-01075c01075c_17575</groupUuid>
+            </groups>
+        </role>
+        <role name="report_viewer">
+            <users/>
+            <groups>
+                <groupUuid>_e-0000e606-62fc-8000-9b39-01075c01075c_17577</groupUuid>
+            </groups>
+        </role>
+    </roleMap>
+    <history>
+        <historyInfo versionUuid="70585d52-6fb1-48fa-9872-b464b28645a9"/>
+    </history>
+</tempoReportHaul>

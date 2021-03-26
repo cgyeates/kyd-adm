@@ -1,0 +1,16 @@
+[
+  {
+    "objectUuid": "47867d75-b33b-4740-873e-993037c6bf34",
+    "designGuidanceKey": "sysrule.designGuidance.processModel.activityChainedMniNode",
+    "objectTypeId": 23,
+    "dismissed": true,
+    "instanceCount": 2
+  },
+  {
+    "objectUuid": "5142ee58-11a7-4563-9465-08bbca4e0c46",
+    "designGuidanceKey": "sysrule.designGuidance.processModel.activityChainedMniNode",
+    "objectTypeId": 23,
+    "dismissed": true,
+    "instanceCount": 2
+  }
+]

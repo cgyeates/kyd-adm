@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<siteHaul xmlns:a="http://www.appian.com/ae/types/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <versionUuid>5ca5a9b1-70f1-49e4-a6ee-71b6e20e5004</versionUuid>
+  <site a:uuid="ec312d1a-420c-4fb3-9448-5822e8d5c862_SITE" name="KYD App">
+    <description>For AVM demo</description>
+    <urlStub>kyd-app</urlStub>
+    <page>
+      <staticName>Customers</staticName>
+      <description/>
+      <urlStub>records</urlStub>
+      <uiObject a:uuid="465044ae-1baa-48c7-ba0f-2c1420c062af" xsi:type="a:RecordType">
+        <a:isSystem>false</a:isSystem>
+        <a:security>16383</a:security>
+        <a:hideLatestNews>false</a:hideLatestNews>
+        <a:hideNewsView>false</a:hideNewsView>
+        <a:hideRelatedActionsView>false</a:hideRelatedActionsView>
+        <a:isExportable>true</a:isExportable>
+        <a:listAutoRefreshInterval>0.0</a:listAutoRefreshInterval>
+        <a:enabledFeatures>0</a:enabledFeatures>
+        <a:isVisibleInRecordTypeList>true</a:isVisibleInRecordTypeList>
+      </uiObject>
+      <iconId>f001</iconId>
+      <visibilityExpr>fn!true()</visibilityExpr>
+      <pageWidth>STANDARD</pageWidth>
+    </page>
+    <page>
+      <staticName>Trends</staticName>
+      <description/>
+      <urlStub>trends</urlStub>
+      <uiObject a:uuid="7a647f09-01b1-47a8-a597-a3186026cc30" xsi:type="a:TempoReport"/>
+      <iconId>f080</iconId>
+      <visibilityExpr>fn!true()</visibilityExpr>
+      <pageWidth>WIDE</pageWidth>
+    </page>
+    <page>
+      <staticName>My Tasks</staticName>
+      <description/>
+      <urlStub>tasks</urlStub>
+      <uiObject a:uuid="989f63b4-a030-4475-af7e-585c9ac2f46c" xsi:type="a:TaskReport"/>
+      <iconId>f046</iconId>
+      <visibilityExpr>fn!true()</visibilityExpr>
+      <pageWidth>WIDE</pageWidth>
+    </page>
+    <visibility>268435456</visibility>
+    <faviconRef a:uuid="SYSTEM_CONTENT_SITES_DEFAULT_FAVICON" xsi:type="a:CollaborationDocument"/>
+    <logoRef a:uuid="SYSTEM_CONTENT_SITES_DEFAULT_LOGO" xsi:type="a:CollaborationDocument"/>
+    <showName>false</showName>
+    <tempoLinkVisibility>HIDDEN</tempoLinkVisibility>
+    <showRecordNews>false</showRecordNews>
+    <tasksInSitesVisibility>HIDDEN</tasksInSitesVisibility>
+    <buttonShape>SQUARED</buttonShape>
+    <navigationBarStyle>STYLE1</navigationBarStyle>
+    <isSystem>false</isSystem>
+  </site>
+  <roleMap>
+    <role name="site_administrator">
+      <users/>
+      <groups>
+        <groupUuid>_e-0000e606-62fc-8000-9b39-01075c01075c_17575</groupUuid>
+      </groups>
+    </role>
+    <role name="site_viewer">
+      <users/>
+      <groups>
+        <groupUuid>_e-0000e606-62fc-8000-9b39-01075c01075c_17577</groupUuid>
+      </groups>
+    </role>
+  </roleMap>
+  <history>
+    <historyInfo versionUuid="5ca5a9b1-70f1-49e4-a6ee-71b6e20e5004"/>
+  </history>
+</siteHaul>
