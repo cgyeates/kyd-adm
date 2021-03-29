@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <contentHaul xmlns:a="http://www.appian.com/ae/types/2009">
-    <versionUuid>_a-0000e606-62fc-8000-9bed-011c48011c48_4217453</versionUuid>
+    <versionUuid>_a-0000e606-62fc-8000-9bed-011c48011c48_4219028</versionUuid>
     <rule>
         <name>KA_RecordFilter</name>
         <uuid>_a-0000e606-62fc-8000-9bed-011c48011c48_4216860</uuid>
@@ -15,7 +15,8 @@
             <system>false</system>
             <unlogged>false</unlogged>
         </visibility>
-        <definition>a!localVariables(
+        <definition>/*release 1 change*/
+a!localVariables(
   local!value: index(ri!option, "value", null),
   #"SYSTEM_SYSRULES_facetOption"(
     id: ri!option.id,
@@ -80,5 +81,6 @@
     </roleMap>
     <history>
         <historyInfo versionUuid="_a-0000e606-62fc-8000-9bed-011c48011c48_4217453"/>
+        <historyInfo versionUuid="_a-0000e606-62fc-8000-9bed-011c48011c48_4219028"/>
     </history>
 </contentHaul>
