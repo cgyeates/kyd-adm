@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <siteHaul xmlns:a="http://www.appian.com/ae/types/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <versionUuid>5ca5a9b1-70f1-49e4-a6ee-71b6e20e5004</versionUuid>
-  <site a:uuid="ec312d1a-420c-4fb3-9448-5822e8d5c862_SITE" name="KYD App">
+  <versionUuid>a40f89cf-31b4-4772-ad21-b5266ce0cf37</versionUuid>
+  <site a:uuid="ec312d1a-420c-4fb3-9448-5822e8d5c862_SITE" name="KYD App Site">
     <description>For AVM demo</description>
     <urlStub>kyd-app</urlStub>
     <page>
@@ -68,5 +68,6 @@
   </roleMap>
   <history>
     <historyInfo versionUuid="5ca5a9b1-70f1-49e4-a6ee-71b6e20e5004"/>
+    <historyInfo versionUuid="a40f89cf-31b4-4772-ad21-b5266ce0cf37"/>
   </history>
 </siteHaul>

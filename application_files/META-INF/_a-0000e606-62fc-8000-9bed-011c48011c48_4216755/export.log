@@ -1,19 +1,30 @@
 Success (1):
-tempoReport 935 7a647f09-01b1-47a8-a597-a3186026cc30 "Customers Report"
+site 499 ec312d1a-420c-4fb3-9448-5822e8d5c862_SITE "KYD App Site"
 
-Referenced precedents that were not exported (3):
+Referenced precedents that were not exported (5):
 group 4791 _e-0000e606-62fc-8000-9b39-01075c01075c_17575
 group 4792 _e-0000e606-62fc-8000-9b39-01075c01075c_17577
-content 336220 _a-0000e606-62fc-8000-9bed-011c48011c48_4216912
+recordType 719 465044ae-1baa-48c7-ba0f-2c1420c062af
+tempoReport 935 7a647f09-01b1-47a8-a597-a3186026cc30
+taskReport 936 989f63b4-a030-4475-af7e-585c9ac2f46c
 
 Trace:
-2021-03-30 00:11:06.801 DEBUG tempoReport 935 7a647f09-01b1-47a8-a597-a3186026cc30 Begin transport.
-2021-03-30 00:11:06.801 DEBUG tempoReport 935 7a647f09-01b1-47a8-a597-a3186026cc30 Retrieving object data.
-2021-03-30 00:11:06.819 DEBUG tempoReport 935 7a647f09-01b1-47a8-a597-a3186026cc30 Setting uuids of object references.
-2021-03-30 00:11:06.819 DEBUG tempoReport 935 7a647f09-01b1-47a8-a597-a3186026cc30 Processing reference: Role[name=report_administrator,groupIds=[4791]]
-2021-03-30 00:11:06.821 DEBUG tempoReport 935 7a647f09-01b1-47a8-a597-a3186026cc30 Processing reference: Role[name=report_viewer,groupIds=[4792]]
-2021-03-30 00:11:06.822 DEBUG tempoReport 935 7a647f09-01b1-47a8-a597-a3186026cc30 Processing reference: UiContainer.uiExpr
-2021-03-30 00:11:06.826 DEBUG tempoReport 935 7a647f09-01b1-47a8-a597-a3186026cc30 Completing produce.
-2021-03-30 00:11:06.826 DEBUG tempoReport 935 7a647f09-01b1-47a8-a597-a3186026cc30 Exporting binary resources.
-2021-03-30 00:11:06.826 DEBUG tempoReport 935 7a647f09-01b1-47a8-a597-a3186026cc30 Serializing object to XML.
-2021-03-30 00:11:06.829 DEBUG tempoReport 935 7a647f09-01b1-47a8-a597-a3186026cc30 Object transported.
+2021-03-30 16:33:37.302 DEBUG site 499 ec312d1a-420c-4fb3-9448-5822e8d5c862_SITE Begin transport.
+2021-03-30 16:33:37.302 DEBUG site 499 ec312d1a-420c-4fb3-9448-5822e8d5c862_SITE Retrieving object data.
+2021-03-30 16:33:37.314 DEBUG site 499 ec312d1a-420c-4fb3-9448-5822e8d5c862_SITE Setting uuids of object references.
+2021-03-30 16:33:37.314 DEBUG site 499 ec312d1a-420c-4fb3-9448-5822e8d5c862_SITE Processing reference: Role[name=site_administrator,groupIds=[4791]]
+2021-03-30 16:33:37.315 DEBUG site 499 ec312d1a-420c-4fb3-9448-5822e8d5c862_SITE Processing reference: Role[name=site_viewer,groupIds=[4792]]
+2021-03-30 16:33:37.317 DEBUG site 499 ec312d1a-420c-4fb3-9448-5822e8d5c862_SITE Processing reference: SiteTemplate.faviconRef
+2021-03-30 16:33:37.317 DEBUG site 499 ec312d1a-420c-4fb3-9448-5822e8d5c862_SITE Processing reference: SiteTemplate.logoRef
+2021-03-30 16:33:37.317 DEBUG site 499 ec312d1a-420c-4fb3-9448-5822e8d5c862_SITE Processing reference: SitePage.uiObject
+2021-03-30 16:33:37.319 DEBUG site 499 ec312d1a-420c-4fb3-9448-5822e8d5c862_SITE Processing reference: SitePage.visibilityExpr
+2021-03-30 16:33:37.319 DEBUG site 499 ec312d1a-420c-4fb3-9448-5822e8d5c862_SITE Processing reference: SitePage.uiObject
+2021-03-30 16:33:37.321 DEBUG site 499 ec312d1a-420c-4fb3-9448-5822e8d5c862_SITE Processing reference: SitePage.visibilityExpr
+2021-03-30 16:33:37.321 DEBUG site 499 ec312d1a-420c-4fb3-9448-5822e8d5c862_SITE Processing reference: SitePage.uiObject
+2021-03-30 16:33:37.323 DEBUG site 499 ec312d1a-420c-4fb3-9448-5822e8d5c862_SITE Processing reference: SitePage.visibilityExpr
+2021-03-30 16:33:37.323 DEBUG site 499 ec312d1a-420c-4fb3-9448-5822e8d5c862_SITE Processing reference: SiteTemplate.tasksInSitesViewerRefsFromUuids
+2021-03-30 16:33:37.323 DEBUG site 499 ec312d1a-420c-4fb3-9448-5822e8d5c862_SITE Processing reference: SiteTemplate.tempoLinkViewerRefsFromUuids
+2021-03-30 16:33:37.323 DEBUG site 499 ec312d1a-420c-4fb3-9448-5822e8d5c862_SITE Completing produce.
+2021-03-30 16:33:37.323 DEBUG site 499 ec312d1a-420c-4fb3-9448-5822e8d5c862_SITE Exporting binary resources.
+2021-03-30 16:33:37.323 DEBUG site 499 ec312d1a-420c-4fb3-9448-5822e8d5c862_SITE Serializing object to XML.
+2021-03-30 16:33:37.327 DEBUG site 499 ec312d1a-420c-4fb3-9448-5822e8d5c862_SITE Object transported.
