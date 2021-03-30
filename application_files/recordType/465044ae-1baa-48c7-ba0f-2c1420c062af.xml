@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <recordTypeHaul xmlns:a="http://www.appian.com/ae/types/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <versionUuid>2512596a-a5c1-4112-9bcb-8b5cd4d369f4</versionUuid>
-  <recordType a:uuid="465044ae-1baa-48c7-ba0f-2c1420c062af" name="Customer">
-    <a:pluralName>Customers</a:pluralName>
+  <versionUuid>b10d5cca-15c0-42b6-a1a7-95d81b93c7cd</versionUuid>
+  <recordType a:uuid="465044ae-1baa-48c7-ba0f-2c1420c062af" name="Customer Profile">
+    <a:pluralName>Customer Profiles</a:pluralName>
     <a:description>List of entries in the KYD App application</a:description>
     <a:urlStub>xajZeQ</a:urlStub>
     <a:source
@@ -115,6 +115,8 @@
 )</a:facetExpr>
       <a:sortOrderIndex>0</a:sortOrderIndex>
       <a:facetOrderIndex>0</a:facetOrderIndex>
+      <a:visibilityExpr/>
+      <a:defaultOptionExpr/>
       <a:allowMultipleSelections>false</a:allowMultipleSelections>
     </a:fieldCfg>
     <a:fieldCfg a:uuid="81e5bae6-2f25-4f86-b463-83f77fdb3372" name="Priority">
@@ -160,6 +162,8 @@
 )</a:facetExpr>
       <a:sortOrderIndex>1</a:sortOrderIndex>
       <a:facetOrderIndex>1</a:facetOrderIndex>
+      <a:visibilityExpr/>
+      <a:defaultOptionExpr/>
       <a:allowMultipleSelections>false</a:allowMultipleSelections>
     </a:fieldCfg>
     <a:fieldCfg a:uuid="924eebd1-f8dd-4be2-b269-33b3cf69ae0a" name="Created By">
@@ -215,9 +219,9 @@
       <a:visibilityExpr>=true()</a:visibilityExpr>
       <a:urlStub>summary</a:urlStub>
       <a:headerExpr/>
-      <a:relatedActionCfg>7875b81b-d2c0-4058-b3f4-cd3916329ef0</a:relatedActionCfg>
-      <a:relatedActionCfg>645d0826-ab9b-47b4-a6f1-8ca1f24f1051</a:relatedActionCfg>
-      <a:relatedActionCfg>0269a139-31a4-4520-b15d-2f938d1f34e4</a:relatedActionCfg>
+      <a:relatedActionCfg>64c3e6b2-dde5-4ee5-88b4-64924c90739e</a:relatedActionCfg>
+      <a:relatedActionCfg>897328ec-788f-4ebd-ae37-f11d3d898127</a:relatedActionCfg>
+      <a:relatedActionCfg>51a9a570-7870-4edb-8fdc-1c4b46b8ee54</a:relatedActionCfg>
       <a:recordActionLaunchType>DIALOG</a:recordActionLaunchType>
     </a:detailViewCfg>
     <a:detailViewCfg>
@@ -226,8 +230,8 @@
       <a:visibilityExpr>=true()</a:visibilityExpr>
       <a:urlStub>_aDlLCA</a:urlStub>
       <a:headerExpr/>
-      <a:relatedActionCfg>7875b81b-d2c0-4058-b3f4-cd3916329ef0</a:relatedActionCfg>
-      <a:relatedActionCfg>645d0826-ab9b-47b4-a6f1-8ca1f24f1051</a:relatedActionCfg>
+      <a:relatedActionCfg>64c3e6b2-dde5-4ee5-88b4-64924c90739e</a:relatedActionCfg>
+      <a:relatedActionCfg>897328ec-788f-4ebd-ae37-f11d3d898127</a:relatedActionCfg>
       <a:recordActionLaunchType>DIALOG</a:recordActionLaunchType>
     </a:detailViewCfg>
     <a:relatedActionCfg a:uuid="73f59ad5-0424-4d42-88aa-3e9e4f5c6200">
@@ -241,7 +245,7 @@
 )</a:contextExpr>
       <a:visibilityExpr>=true()</a:visibilityExpr>
       <a:iconId>f044</a:iconId>
-      <a:refId>7875b81b-d2c0-4058-b3f4-cd3916329ef0</a:refId>
+      <a:refId>64c3e6b2-dde5-4ee5-88b4-64924c90739e</a:refId>
       <a:referenceKey>updateRecord</a:referenceKey>
     </a:relatedActionCfg>
     <a:relatedActionCfg a:uuid="ef25e5c6-d23a-4cde-93f3-b5321f3ab4c1">
@@ -251,7 +255,7 @@
 }</a:contextExpr>
       <a:visibilityExpr>=true()</a:visibilityExpr>
       <a:iconId>f046</a:iconId>
-      <a:refId>645d0826-ab9b-47b4-a6f1-8ca1f24f1051</a:refId>
+      <a:refId>897328ec-788f-4ebd-ae37-f11d3d898127</a:refId>
       <a:referenceKey>sendTask</a:referenceKey>
     </a:relatedActionCfg>
     <a:relatedActionCfg a:uuid="6d2621d0-eb28-41a3-b12e-c328d83345de">
@@ -261,7 +265,7 @@
 }</a:contextExpr>
       <a:visibilityExpr>=true()</a:visibilityExpr>
       <a:iconId>f014</a:iconId>
-      <a:refId>0269a139-31a4-4520-b15d-2f938d1f34e4</a:refId>
+      <a:refId>51a9a570-7870-4edb-8fdc-1c4b46b8ee54</a:refId>
       <a:referenceKey>deleteCustomer</a:referenceKey>
     </a:relatedActionCfg>
     <a:isSystem>false</a:isSystem>
@@ -275,6 +279,8 @@
     <a:hideNewsView>false</a:hideNewsView>
     <a:hideRelatedActionsView>false</a:hideRelatedActionsView>
     <a:isExportable>true</a:isExportable>
+    <a:listViewSrcExpr/>
+    <a:recordViewSrcExpr/>
     <a:recordListActionCfg a:uuid="23050d2a-7255-4847-accc-b675e083522d">
       <a:staticTitle>New Customer</a:staticTitle>
       <a:staticDescription>Create a new Customer</a:staticDescription>
@@ -283,6 +289,7 @@
       <a:visibilityExpr>=true()</a:visibilityExpr>
       <a:referenceKey>newCustomer</a:referenceKey>
     </a:recordListActionCfg>
+    <a:iconId/>
     <a:listAutoRefreshInterval>0.0</a:listAutoRefreshInterval>
     <a:enabledFeatures>31</a:enabledFeatures>
     <a:isVisibleInRecordTypeList>true</a:isVisibleInRecordTypeList>
@@ -304,6 +311,7 @@
   </roleMap>
   <history>
     <historyInfo versionUuid="2512596a-a5c1-4112-9bcb-8b5cd4d369f4"/>
+    <historyInfo versionUuid="b10d5cca-15c0-42b6-a1a7-95d81b93c7cd"/>
   </history>
   <migrationVersion>1</migrationVersion>
 </recordTypeHaul>
