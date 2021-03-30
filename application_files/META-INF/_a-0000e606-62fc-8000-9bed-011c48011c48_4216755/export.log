@@ -1,49 +1,19 @@
-Success (2):
-content 336391 _a-0000e606-62fc-8000-9bed-011c48011c48_4216860 "KA_RecordFilter"
-taskReport 936 989f63b4-a030-4475-af7e-585c9ac2f46c "KYD App Report"
+Success (1):
+tempoReport 935 7a647f09-01b1-47a8-a597-a3186026cc30 "Customers Report"
 
-Referenced precedents that were not exported (4):
+Referenced precedents that were not exported (3):
 group 4791 _e-0000e606-62fc-8000-9b39-01075c01075c_17575
 group 4792 _e-0000e606-62fc-8000-9b39-01075c01075c_17577
-content 336182 91283f9a-28bb-45e6-beef-45b98eae748d
-content 336226 _a-0000e606-62fc-8000-9bed-011c48011c48_4216936
+content 336220 _a-0000e606-62fc-8000-9bed-011c48011c48_4216912
 
 Trace:
-2021-03-29 16:27:10.717 DEBUG content 336391 _a-0000e606-62fc-8000-9bed-011c48011c48_4216860 Begin transport.
-2021-03-29 16:27:10.717 DEBUG content 336391 _a-0000e606-62fc-8000-9bed-011c48011c48_4216860 Retrieving object data.
-2021-03-29 16:27:10.728 DEBUG content 336391 _a-0000e606-62fc-8000-9bed-011c48011c48_4216860 Setting uuids of object references.
-2021-03-29 16:27:10.728 DEBUG content 336391 _a-0000e606-62fc-8000-9bed-011c48011c48_4216860 Processing reference: [Content:id=336207,versionId=-1,name=KA_RecordFilter,type=32,subtype=1,uuid=_a-0000e606-62fc-8000-9bed-011c48011c48_4216860,parent=336182]
-2021-03-29 16:27:10.728 DEBUG content 336391 _a-0000e606-62fc-8000-9bed-011c48011c48_4216860 Processing reference: FreeformRule.forum
-2021-03-29 16:27:10.729 DEBUG content 336391 _a-0000e606-62fc-8000-9bed-011c48011c48_4216860 Processing reference: TypedVariable[name=option,it=97,v=<null>]
-2021-03-29 16:27:10.729 DEBUG content 336391 _a-0000e606-62fc-8000-9bed-011c48011c48_4216860 Processing reference: TypedVariable[name=filterField,it=97,v=<null>]
-2021-03-29 16:27:10.729 DEBUG content 336391 _a-0000e606-62fc-8000-9bed-011c48011c48_4216860 Processing reference: TypedVariable[name=count,it=1,v=<null>]
-2021-03-29 16:27:10.729 DEBUG content 336391 _a-0000e606-62fc-8000-9bed-011c48011c48_4216860 Processing reference: FreeformRule.parent
-2021-03-29 16:27:10.731 DEBUG content 336391 _a-0000e606-62fc-8000-9bed-011c48011c48_4216860 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@33bd92ad[
-  ContentRole[name=readers,inherit=true,allowForAll=false]
-  ContentRole[name=authors,inherit=true,allowForAll=false]
-  ContentRole[name=administrators,inherit=true,allowForAll=false]
-  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
-  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
-  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
-  securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
-]
-2021-03-29 16:27:10.731 DEBUG content 336391 _a-0000e606-62fc-8000-9bed-011c48011c48_4216860 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
-2021-03-29 16:27:10.731 DEBUG content 336391 _a-0000e606-62fc-8000-9bed-011c48011c48_4216860 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
-2021-03-29 16:27:10.732 DEBUG content 336391 _a-0000e606-62fc-8000-9bed-011c48011c48_4216860 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
-2021-03-29 16:27:10.732 DEBUG content 336391 _a-0000e606-62fc-8000-9bed-011c48011c48_4216860 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
-2021-03-29 16:27:10.732 DEBUG content 336391 _a-0000e606-62fc-8000-9bed-011c48011c48_4216860 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
-2021-03-29 16:27:10.732 DEBUG content 336391 _a-0000e606-62fc-8000-9bed-011c48011c48_4216860 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
-2021-03-29 16:27:10.732 DEBUG content 336391 _a-0000e606-62fc-8000-9bed-011c48011c48_4216860 Completing produce.
-2021-03-29 16:27:10.732 DEBUG content 336391 _a-0000e606-62fc-8000-9bed-011c48011c48_4216860 Exporting binary resources.
-2021-03-29 16:27:10.732 DEBUG content 336391 _a-0000e606-62fc-8000-9bed-011c48011c48_4216860 Serializing object to XML.
-2021-03-29 16:27:10.737 DEBUG content 336391 _a-0000e606-62fc-8000-9bed-011c48011c48_4216860 Object transported.
-2021-03-29 16:27:10.738 DEBUG taskReport 936 989f63b4-a030-4475-af7e-585c9ac2f46c Begin transport.
-2021-03-29 16:27:10.738 DEBUG taskReport 936 989f63b4-a030-4475-af7e-585c9ac2f46c Retrieving object data.
-2021-03-29 16:27:10.752 DEBUG taskReport 936 989f63b4-a030-4475-af7e-585c9ac2f46c Setting uuids of object references.
-2021-03-29 16:27:10.753 DEBUG taskReport 936 989f63b4-a030-4475-af7e-585c9ac2f46c Processing reference: Role[name=report_administrator,groupIds=[4791]]
-2021-03-29 16:27:10.754 DEBUG taskReport 936 989f63b4-a030-4475-af7e-585c9ac2f46c Processing reference: Role[name=report_viewer,groupIds=[4792]]
-2021-03-29 16:27:10.755 DEBUG taskReport 936 989f63b4-a030-4475-af7e-585c9ac2f46c Processing reference: UiContainer.uiExpr
-2021-03-29 16:27:10.758 DEBUG taskReport 936 989f63b4-a030-4475-af7e-585c9ac2f46c Completing produce.
-2021-03-29 16:27:10.758 DEBUG taskReport 936 989f63b4-a030-4475-af7e-585c9ac2f46c Exporting binary resources.
-2021-03-29 16:27:10.758 DEBUG taskReport 936 989f63b4-a030-4475-af7e-585c9ac2f46c Serializing object to XML.
-2021-03-29 16:27:10.763 DEBUG taskReport 936 989f63b4-a030-4475-af7e-585c9ac2f46c Object transported.
+2021-03-30 00:11:06.801 DEBUG tempoReport 935 7a647f09-01b1-47a8-a597-a3186026cc30 Begin transport.
+2021-03-30 00:11:06.801 DEBUG tempoReport 935 7a647f09-01b1-47a8-a597-a3186026cc30 Retrieving object data.
+2021-03-30 00:11:06.819 DEBUG tempoReport 935 7a647f09-01b1-47a8-a597-a3186026cc30 Setting uuids of object references.
+2021-03-30 00:11:06.819 DEBUG tempoReport 935 7a647f09-01b1-47a8-a597-a3186026cc30 Processing reference: Role[name=report_administrator,groupIds=[4791]]
+2021-03-30 00:11:06.821 DEBUG tempoReport 935 7a647f09-01b1-47a8-a597-a3186026cc30 Processing reference: Role[name=report_viewer,groupIds=[4792]]
+2021-03-30 00:11:06.822 DEBUG tempoReport 935 7a647f09-01b1-47a8-a597-a3186026cc30 Processing reference: UiContainer.uiExpr
+2021-03-30 00:11:06.826 DEBUG tempoReport 935 7a647f09-01b1-47a8-a597-a3186026cc30 Completing produce.
+2021-03-30 00:11:06.826 DEBUG tempoReport 935 7a647f09-01b1-47a8-a597-a3186026cc30 Exporting binary resources.
+2021-03-30 00:11:06.826 DEBUG tempoReport 935 7a647f09-01b1-47a8-a597-a3186026cc30 Serializing object to XML.
+2021-03-30 00:11:06.829 DEBUG tempoReport 935 7a647f09-01b1-47a8-a597-a3186026cc30 Object transported.
